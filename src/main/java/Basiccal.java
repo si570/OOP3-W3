@@ -28,6 +28,8 @@ public class Basiccal {
 
             case "subtract" -> subtract(num1, num2);
 
+            case "multiply" -> multiply(num1, num2);
+
 
             default -> {
                 System.out.println("Invalid operation");
@@ -47,5 +49,8 @@ public class Basiccal {
     }
     public static double subtract(double num1, double num2) {
         return num1 - num2;
+    }
+    public static double multiply(double num1, double num2) {
+        return num1 * num2;
     }
 }
