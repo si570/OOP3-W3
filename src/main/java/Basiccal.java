@@ -30,6 +30,8 @@ public class Basiccal {
 
             case "multiply" -> multiply(num1, num2);
 
+            case "divide" -> divide(num1, num2);
+
 
             default -> {
                 System.out.println("Invalid operation");
@@ -52,5 +54,8 @@ public class Basiccal {
     }
     public static double multiply(double num1, double num2) {
         return num1 * num2;
+    }
+    public static double divide(double num1, double num2) {
+        return num1 / num2;
     }
 }
