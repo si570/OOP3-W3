@@ -26,6 +26,8 @@ public class Basiccal {
         double result = switch (operation) {
             case "add" -> add(num1, num2);
 
+            case "subtract" -> subtract(num1, num2);
+
 
             default -> {
                 System.out.println("Invalid operation");
@@ -42,5 +44,8 @@ public class Basiccal {
     // Updated methods to return the result
     public static double add(double num1, double num2) {
         return num1 + num2; // Return the result
+    }
+    public static double subtract(double num1, double num2) {
+        return num1 - num2;
     }
 }
